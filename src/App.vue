@@ -25,8 +25,6 @@
 
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
-
-const one = ref(0);
 </script>
 
 <style scoped>
