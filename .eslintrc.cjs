@@ -11,7 +11,8 @@ module.exports = {
     "plugin:prettier/recommended",
     "./.eslintrc-auto-import.json",
   ],
-  env: {
-    node: true,
+  rules: {
+    "vue/multi-word-component-names": 0,
+    "@typescript-eslint/no-explicit-any": 0,
   },
 };
